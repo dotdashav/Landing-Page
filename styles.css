@@ -1,0 +1,131 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    font-family: Verdana, Tahoma, sans-serif;
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 75px 0 75px;
+}
+.logo {
+    width: 100px;
+    height: auto;
+    border: 0px ;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.introduction {
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bimg {
+    width: 600px;
+    border-radius: 25px;
+}
+
+.places {
+    background-color: #f9faf8;
+    padding: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imgandtext {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.placesimg {
+    text-align: center;
+}
+img {
+    width: 250px;
+    height: 180px;
+    border: 5px solid #2a3b53;
+    border-radius: 10px;
+}
+.left {
+    padding: 50px;
+    font-size: 18px;
+    color: #e5e7eb;
+ }
+ .quote {
+     background-color: #e5e7eb;
+     font-size: 36px;
+     font-weight: lighter;
+     font-style: italic;
+     padding:100px 300px 100px 300px;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .callaction {
+     background-color: #f9faf8;
+     padding: 75px;
+ }
+ h2 {
+    color: #e5e7eb;
+ }
+ h3 {
+     font: bolder 36px;
+ }
+ p {
+    font-size: 18px;
+    color: #e5e7eb;
+ }
+ .container {
+     background-color: #3882F6;
+     border-radius: 15px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ 
+ button {
+    border: 1px solid #ffffff ; 
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #e5e7eb;
+    border-radius: 10px;
+    padding: 10px;
+ }
+
+ .footer {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: #e5e7eb;
+     padding: 10px;
+ }
